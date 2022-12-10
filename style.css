@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 100vh;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(71, 121, 21);
+    object-fit: contain;
+
+}
+
+
+.sekil5{
+    width: 190px;
+    height: 90px;
+    background-color: white;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.menu{
+    background-image: url(./img/kraft-paper-hole-reuse-reduce-recycle-symbol-text-green-grass-background_44706-988.jpg);
+    width: 100%;
+    height: 475px;
+    display: flex;
+    align-items: center;
+   
+    padding-top: 200px;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.menu h2{
+    color: rgb(23, 132, 23);
+    margin-left: 700px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Comfortaa';
+}
+
+.menu a{
+    background-color: rgb(71, 121, 21);
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 650px;
+    font-family: "comfortaa";
+}
+.kateqory{
+    width: 100%;
+    height: 525px;
+   
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.card{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 300px;
+    height: 650px;
+}
+h3{
+    padding-top: 50px;
+    text-align: center;
+    color: green;
+    font-weight: 500;
+    font-size: 40px;
+}
+.cards a img{
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 5px;
+    gap: 40px;
+    border-radius: 10px;
+    
+}
+.cards h2{
+    text-align: center;
+    color: green;
+}
+
+.about{
+    background-image: url(./img/green-earth--3d-green-nature--ppt-clipart-powerpoint.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+   padding-top: 120px;
+    gap: 50px;
+    height: 725px;
+}
+
+.about h2{
+    color: white;
+    margin-left: 60px;
+
+}
+
+.about p{
+    margin-left: 30px;
+    width: 700px;
+    color: white;
+    font-size: 30px;
+}
+
+/**Plastik**/
+
+.mehsul{
+    display: flex;
+    flex-direction: column;
+}
+
+.mehsul h2{
+    color: green;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    height: 450px;
+    gap: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text1{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.backets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.image img{
+    width: 315px;
+    height: 315px;
+}
+
+.fa-shopping-basket{
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/**satis**/
+
+.satis{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 555px;
+    
+}
+
+.sekil img{
+    width: 500px;
+    height: 500px;
+}
+
+.metn{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.metn p {
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'comfortaa';
+}
+
+button{
+    background-color: rgb(71, 121, 21);
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+}
+
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.name p{
+    font-family: "Comfortaa";
+}
+.email p{
+    font-family: "Comfortaa";
+}
+
+
+
+form input{
+    width: 450px;
+    height: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form p{
+    font-family: "Comfortaa";
+}
+
+ .btn{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    background-color: rgb(71, 121, 21);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+ }
+
+ .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 590px;
+    padding-top: 30px;
+}
+.login p{
+    font-family: 'Comfortaa';
+}
+.login h2{
+    font-family: "Comfortaa";
+}
+.gender{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.radio{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.id{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+footer{
+margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(11, 51, 11);
+}
+
+footer p{
+    color: white;
+    font-family: "Comfortaa";
+}
+ .fa-solid{
+     color: white;
+}
+.number{
+    display: flex;
+}
+
+.poct{
+    display: flex;
+}
+.location{
+    display: flex;
+}
+
+.is{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding-left: 400px;
+   width: 725px;
+   height: 555px;
+  
+}
+
+.is h2{
+    text-align: center;
+    color: green;
+}
+
+.metn2 p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.metn2 h5{
+   font-size: 22px;
+}
+
+
+form{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sifarisler h2{
+    text-align: center;
+    color: green;
+    padding-top: 30px;
+}
+
+.sifarisler button{
+    text-align: center;
+    margin-top: 50px;
+}
+.sifarisler{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    height: 555px;
+}
